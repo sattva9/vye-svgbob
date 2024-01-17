@@ -11,6 +11,13 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dynamic = ["version"]
+description = "Render ASCII art diagrams to SVG using the Rust crate svgbob."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["svgbob", "ascii", "svg"]
+
+[project.urls]
+Repository = "https://github.com/sattva9/vye-svgbob"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]

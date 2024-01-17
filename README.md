@@ -4,11 +4,7 @@
 
 ## Installation
 
-### From Source
-
-You can install the package directly from the source code using `pip` with VCS (Version Control System) support.
-
-#### Requirements
+### Requirements
 
 Make sure you have the following prerequisites installed on your system:
 
@@ -23,14 +19,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 pip install maturin
 ```
 
-#### Install package
-
+### Install package
 
 ```bash
-pip install git+https://github.com/sattva9/vye-svgbob
+pip install vye-svgbob
 ```
-
-NOTE - This package will be uploaded to PyPI once registrations are enabled.
 
 ## Example
 
